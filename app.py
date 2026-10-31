@@ -1,2 +1,398 @@
-# Python obfuscation by pyobfuscator.com
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));exec((_)(b'==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'))
+#!/usr/bin/env python3
+
+import asyncio
+import logging
+import os
+import socket
+import struct
+import sys
+import base64
+import aiohttp
+from aiohttp import web
+
+# =========================
+# Config
+# =========================
+
+UUID = os.environ.get("UUID", "c429a9f1-5426-42d5-bd21-200d62f87a68")  # 节点UUID
+
+if not UUID:
+    raise RuntimeError("UUID is required")
+
+
+DOMAIN = os.environ.get("DOMAIN", "")     # 项目分配的域名或反代后的域名,不包含https://前缀,例如: domain.xxx.com
+
+
+SUB_PATH = os.environ.get("SUB_PATH", "sub")     # 节点订阅token
+
+
+NODE_NAME = os.environ.get("NODE_NAME", "")   # 节点名称
+
+
+WS_PATH = os.environ.get("WS_PATH", UUID.replace("-", "")[:8])
+
+
+PORT = int(os.environ.get("PORT", 3000))
+
+
+MAX_CONNECTIONS = int(os.environ.get("MAX_CONNECTIONS", 100))
+
+
+DEBUG = os.environ.get("DEBUG", "false").lower() == "true"
+
+
+# =========================
+# Logging
+# =========================
+
+
+logging.basicConfig(
+    level=logging.DEBUG if DEBUG else logging.INFO,
+    format="%(asctime)s %(levelname)s %(message)s",
+)
+
+
+logger = logging.getLogger("vless")
+
+
+# =========================
+# Global
+# =========================
+
+
+UUID_BYTES = bytes.fromhex(UUID.replace("-", ""))
+
+
+LIMITER = asyncio.Semaphore(MAX_CONNECTIONS)
+
+
+# =========================
+# Utils
+# =========================
+
+
+def port_available(port):
+
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+    try:
+        sock.bind(("0.0.0.0", port))
+
+        return True
+
+    except OSError:
+        return False
+
+    finally:
+        sock.close()
+
+
+async def resolve_host(host):
+
+    try:
+        socket.inet_aton(host)
+
+        return host
+
+    except:
+        pass
+
+    try:
+        loop = asyncio.get_running_loop()
+
+        result = await loop.getaddrinfo(host, None, family=socket.AF_INET)
+
+        return result[0][4][0]
+
+    except Exception:
+        return host
+
+
+# =========================
+# VLESS Parser
+# =========================
+
+
+async def parse_vless(data):
+
+    if len(data) < 22:
+        return None
+
+    # version
+
+    if data[0] != 0:
+        return None
+
+    # UUID
+
+    if data[1:17] != UUID_BYTES:
+        return None
+
+    index = 17
+
+    # addons length
+
+    addons_length = data[index]
+
+    index += 1
+
+    # skip addons
+
+    index += addons_length
+
+    if index >= len(data):
+        return None
+
+    # command
+
+    command = data[index]
+
+    index += 1
+
+    # only TCP
+
+    if command != 1:
+        return None
+
+    # port
+
+    if index + 2 > len(data):
+        return None
+
+    port = struct.unpack("!H", data[index : index + 2])[0]
+
+    index += 2
+
+    # address type
+
+    if index >= len(data):
+        return None
+
+    atyp = data[index]
+
+    index += 1
+
+    host = ""
+
+    # IPv4
+
+    if atyp == 1:
+        if index + 4 > len(data):
+            return None
+
+        host = ".".join(str(x) for x in data[index : index + 4])
+
+        index += 4
+
+    # Domain
+
+    elif atyp == 2:
+        if index >= len(data):
+            return None
+
+        length = data[index]
+
+        index += 1
+
+        if index + length > len(data):
+            return None
+
+        host = data[index : index + length].decode("utf-8", errors="ignore")
+
+        index += length
+
+    else:
+        return None
+
+    if not host:
+        return None
+
+    return {"host": host, "port": port, "payload": data[index:]}
+
+
+# =========================
+# Relay
+# =========================
+
+
+async def relay(websocket, reader, writer):
+
+    async def ws_to_tcp():
+
+        try:
+            async for msg in websocket:
+                if msg.type == aiohttp.WSMsgType.BINARY:
+                    writer.write(msg.data)
+
+                    await writer.drain()
+
+        except Exception:
+            pass
+
+        finally:
+            writer.close()
+
+    async def tcp_to_ws():
+
+        try:
+            while True:
+                data = await reader.read(8192)
+
+                if not data:
+                    break
+
+                await websocket.send_bytes(data)
+
+        except Exception:
+            pass
+
+        finally:
+            await websocket.close()
+
+    await asyncio.gather(ws_to_tcp(), tcp_to_ws())
+
+
+# =========================
+# WebSocket Handler
+# =========================
+
+
+async def websocket_handler(request):
+
+    if request.path.rstrip("/") != "/" + WS_PATH:
+        return web.Response(status=404)
+
+    await LIMITER.acquire()
+
+    websocket = web.WebSocketResponse()
+
+    await websocket.prepare(request)
+
+    try:
+        message = await asyncio.wait_for(websocket.receive(), timeout=5)
+
+        if message.type != aiohttp.WSMsgType.BINARY:
+            await websocket.close()
+
+            return websocket
+
+        target = await parse_vless(message.data)
+
+        if not target:
+            await websocket.close()
+
+            return websocket
+
+        # VLESS response
+
+        await websocket.send_bytes(b"\x00\x00")
+
+        host = await resolve_host(target["host"])
+
+        reader, writer = await asyncio.wait_for(
+            asyncio.open_connection(host, target["port"]), timeout=10
+        )
+
+        if target["payload"]:
+            writer.write(target["payload"])
+
+            await writer.drain()
+
+        await relay(websocket, reader, writer)
+
+    except Exception as e:
+        if DEBUG:
+            logger.error(str(e))
+
+        await websocket.close()
+
+    finally:
+        LIMITER.release()
+
+    return websocket
+
+
+# =========================
+# Subscription
+# =========================
+
+
+async def subscription(request):
+
+    host = DOMAIN
+
+    port = 443
+
+    security = "tls"
+
+    if not host:
+        host = request.host.split(":")[0]
+
+        port = PORT
+
+        security = "none"
+
+    vless_url = (
+        f"vless://{UUID}@{host}:{port}"
+        "?encryption=none"
+        f"&security={security}"
+        f"&sni={host}"
+        "&fp=chrome"
+        "&type=ws"
+        f"&host={host}"
+        f"&path=%2F{WS_PATH}"
+        f"#{NODE_NAME}"
+    )
+    base64_content = base64.b64encode(vless_url.encode()).decode()
+    return web.Response(text=base64_content, content_type="text/plain")
+
+
+# =========================
+# Index
+# =========================
+
+
+async def index(request):
+
+    return web.Response(text="OK")
+
+
+# =========================
+# Main
+# =========================
+
+
+async def main():
+
+    if not port_available(PORT):
+        logger.error(f"Port {PORT} already used")
+
+        sys.exit(1)
+
+    app = web.Application()
+
+    app.router.add_get("/", index)
+
+    app.router.add_get("/" + SUB_PATH, subscription)
+
+    app.router.add_get("/" + WS_PATH, websocket_handler)
+
+    runner = web.AppRunner(app)
+
+    await runner.setup()
+
+    site = web.TCPSite(runner, "0.0.0.0", PORT)
+
+    await site.start()
+
+    logger.info(f"VLESS WS running on {PORT}")
+
+    await asyncio.Future()
+
+
+if __name__ == "__main__":
+    try:
+        asyncio.run(main())
+
+    except KeyboardInterrupt:
+        pass
