@@ -5,7 +5,6 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
 
-# 定义权限：允许 GitHub Actions 向 GHCR 写入/推送镜像
 permissions:
   contents: read
   packages: write
@@ -30,22 +29,12 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
-      # 4. 提取元数据（自动处理镜像名和标签，全小写转换）
-      - name: Extract Docker metadata
-        id: meta
-        uses: docker/metadata-action@v5
-        with:
-          images: ghcr.io/${{ github.repository }}
-          tags: |
-            latest
-            ${{ github.sha }}
-
-      # 5. 构建并推送到 GHCR
+      # 4. 直接构建并推送到 GHCR，标签固定为 latest
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
+          tags: |
+            ghcr.io/${{ github.repository }}:latest
