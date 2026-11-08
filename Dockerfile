@@ -1,6 +1,6 @@
 FROM python:3.12-alpine
 
-WORKDIR /tmp
+WORKDIR /app
 
 COPY app.py requirements.txt index.html ./
 
